@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
 import JohanNameCard from "../components/name-card/johan";
+import JejeNameCard from "../components/name-card/jeje";
 
 function AboutPage() {
   return (
@@ -12,7 +13,7 @@ function AboutPage() {
 
         <JohanNameCard />
         {/* Panggil kartu nama kamu dibawah sini..... */}
-
+<JejeNameCard/>
 
         </div>
       </div>
